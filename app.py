@@ -6,9 +6,8 @@ from PIL import Image
 
 # Load model
 model = tf.keras.models.load_model(
-    '/content/drive/MyDrive/tomato_disease_model.h5'
+    'tomato_disease_model.h5'
 )
-
 # Nama kelas
 class_names = [
     "Healthy",
